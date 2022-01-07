@@ -38,7 +38,7 @@ SELECT * FROM employees WHERE (last_name LIKE 'E%' AND last_name LIKE '%E') ORDE
 SELECT * FROM employees WHERE (last_name LIKE 'E%' AND last_name LIKE '%E') ORDER BY hire_date DESC;
 -- 6. Result is 899 entries. First row: Teiji Eldridge, Last row: Sergi Erde
 SELECT * FROM employees WHERE (hire_date BETWEEN '1990/01/01' AND '1999/12/31') AND birth_date LIKE '%12-25' ORDER BY birth_date, hire_date DESC;
--- 7. Result is 362 entries. Oldest employee, hired last: Khun Bernin, Youngest Employee, hired first: Douadi Pettis
+-- 7. Result is 362 entries. Oldest employee, hired last: Khun Bernini, Youngest Employee, hired first: Douadi Pettis
 
 
 
